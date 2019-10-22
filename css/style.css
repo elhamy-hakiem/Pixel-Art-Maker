@@ -1,0 +1,67 @@
+h1{
+    font-family: 'Concert One', cursive;
+}
+.red
+{
+    color: red;
+}
+.green
+{
+    color: green;
+}
+
+.blue
+{
+    color: blue;
+}
+label{
+    font-weight:600 ;
+}
+#submitBtn
+{
+    font-weight: 600;
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    border: 0;
+    outline: 0;
+}
+
+table
+{
+    border-collapse: unset !important;
+    border: 1px solid #000;
+}
+table tr td{
+    border: 1px solid #000;
+}
+
+
+/* Start choose shape */
+
+.Square
+{
+    width: 30px;
+    height: 30px;
+}
+.Circle
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.Rectangle
+{
+    width: 60px;
+    height: 30px;
+}
+
+.Oval
+{
+    width: 60px;
+    height: 30px;
+    border-radius: 100px / 50px;
+}
+
+
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pixel Art Maker</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Pixel Art Maker">
+        <meta name="keywords" content="">
+        <meta name="author" content="Elhamy Abdelhakiem">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Anton|Concert+One|Righteous&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+
+
+    </head>
+    <body>
+
+       <div class="text-center py-4">
+            <h1><span class="red">Pixel</span> <span class="green">Art</span> <span class="blue">Maker</span></h1>
+            <h3 class="my-3">Choose Grid Size</h3>
+        
+            <!--Start Form -->
+            <form>
+                <label>Grid Height : </label>
+                <input id="heightId" type="number">
+                <label>Grid Width : </label>
+                <input id="widthId" type="number">
+
+                <label>Choose shipe</label>
+                <select id="shapes">
+                    <option>Rectangle</option>
+                    <option>Square</option>
+                    <option>Oval</option>
+                    <option>Circle</option>
+                </select>
+                <input type="button" value="Submit Data" id="submitBtn">
+            </form>
+            <!--End Form -->
+
+            <!---Choose color-->
+            <h4>Pick A Color</h4>
+            <input id="colortId" type="color">
+
+            <h4 class="my-3">Design Canvas</h4>
+            <!--Start Canvas-->
+                <table id="gridId" class="m-auto">
+                </table>
+            <!--End Canvas-->
+       </div>
+       
+
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/design.js"></script>
+    </body>
+</html>
